@@ -6,11 +6,11 @@ const webLinks = [
         url: 'https://twitter.com/realvjy',
         type: 'social',
         icon: '/twitter.svg',
-        on: true
+        on: false
     },
     {
         title: 'Instagram',
-        url: 'https://instagram.com/realvjy',
+        url: 'https://www.instagram.com/comunidadeesmirna/',
         type: 'social',
         icon: '/insta.svg',
         on: true
@@ -34,20 +34,20 @@ const webLinks = [
         url: 'https://github.com/realvjy',
         type: 'social',
         icon: '/github.svg',
-        on: true
-    },
-    {
-        title: 'Youtube',
-        url: 'https://youtube.com/realvjy',
-        type: 'social',
-        icon: '/youtube.svg',
         on: false
     },
     {
-        title: 'Figma',
-        url: 'https://figma.com/@realvjy',
+        title: 'Youtube',
+        url: 'https://www.youtube.com/@ComunidadeEsmirna',
         type: 'social',
-        icon: '/figma.svg',
+        icon: '/youtube.svg',
+        on: true
+    },
+    {
+        title: 'Facebook',
+        url: 'https://www.facebook.com/ComunidadeEsmirna/',
+        type: 'social',
+        icon: '/facebook.svg',
         on: true
     },
     {
@@ -69,7 +69,7 @@ const webLinks = [
         url: 'https://mastodon.online/@realvjy',
         type: 'social',
         icon: '/mastodon.svg',
-        on: true
+        on: false
     },
     {
         title: 'Hive Social',
@@ -108,47 +108,47 @@ const webLinks = [
     },
     // Install section
     {
-        title: 'Use this template',
-        url: 'https://github.com/realvjy/nxt-lnk/generate',
-        type: 'install',
-        icon: '/use.png',
+        title: 'Comunidade Esmirna Paraná-RN',
+        url: 'https://www.facebook.com/esmirnaparanarn',
+        type: 'trabalhos',
+        icon: '',
         on: true
     },
     {
-        title: 'Deploy on Vercel',
-        url: 'https://vercel.com/import/git?s=https://github.com/realvjy/nxt-lnk',
-        type: 'install',
-        icon: '/vercel.svg',
+        title: 'Pequeninos do Sudão',
+        url: 'https://www.facebook.com/PequeninosdoSudao',
+        type: 'trabalhos',
+        icon: '',
         on: true
     },
     {
-        title: 'Documentation',
-        url: 'https://github.com/realvjy/nxt-lnk#nxt-lnk',
-        type: 'install',
-        icon: '/doc.png',
+        title: 'Ministerio Bartimeu',
+        url: 'https://www.facebook.com/MinisterioBartimeu',
+        type: 'trabalhos',
+        icon: '',
         on: true
     },
     {
         title: 'Github',
         url: 'https://github.com/realvjy/nxt-lnk',
-        type: 'install',
+        type: 'trabalhos',
         icon: '/github-fill.svg',
-        on: true
+        on: false
     },
 
     {
-        title: 'Buy Me a Coffee',
+        title: 'Cultos Online',
         url: 'https://www.buymeacoffee.com/realvjy',
         type: 'other',
-        icon: '/bmc.png',
+        icon: '/Youtube-Logo-PNG.png',
         on: true
     },
 
     {
-        title: 'link demo',
+        title: 'Pedidos de Oração',
         url: 'https://vjy.me/lnk',
         type: 'other',
-        icon: '/vjy.png',
+        icon: '/Whatsapp-Icon-PNG.png',
         on: true
     },
 
@@ -157,7 +157,7 @@ const webLinks = [
         url: 'https://vjy.me',
         type: 'other',
         icon: '/vjy.png',
-        on: true
+        on: false
     },
 ];
 

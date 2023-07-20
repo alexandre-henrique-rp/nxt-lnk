@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable jsx-a11y/alt-text */
 // Weblinks Page Sections
 // created by @realvjy
 // date: 29 Jul, 2022
@@ -27,7 +29,7 @@ const Links = () => {
   const footerText = bioData[0].footerText;
   const author = bioData[0].author;
   const authorURL = bioData[0].authorURL;
-  const titleImage = "/title.svg";
+  const titleImage = "/Logo Esmirna title.png";
 
   // Check what class to use oval or hex for avatar
   const avatarShape = bioData[0].nftAvatar ? `nft-clipped` : `oval-clipped`
@@ -51,7 +53,7 @@ const Links = () => {
 
   // Get data for install section
   const install = allLinks.filter((el) => {
-    return el.type === "install" && el.on
+    return el.type === "trabalhos" && el.on
   });
 
   // Get data for nfts
@@ -76,6 +78,7 @@ const Links = () => {
                 <OvalIcon />
                 <div className={`${avatarShape} avatar-border`}></div>
                 <div className={`${avatarShape} avatar-fill`}></div>
+                
                 <img
                   src={avatarImg}
                   className={avatarShape}
@@ -162,7 +165,7 @@ const Links = () => {
 
             {/* Other Section */}
             <LinkSection>
-              <h3>{others[0].type}</h3>
+              {/* <h3>{others[0].type}</h3> */}
               {/* BioData.js > newProduct == true */}
               {/* New Section will render once newProduct == true */}
               {(newProduct) ? <NewSection>
